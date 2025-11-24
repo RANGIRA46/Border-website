@@ -1,0 +1,226 @@
+{
+    "common": {
+        "appName": "Système National de Gestion des Frontières et des Passeports",
+        "welcome": "Bienvenue",
+        "submit": "Soumettre",
+        "cancel": "Annuler",
+        "next": "Suivant",
+        "previous": "Précédent",
+        "save": "Enregistrer",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "search": "Rechercher",
+        "filter": "Filtrer",
+        "export": "Exporter",
+        "print": "Imprimer",
+        "close": "Fermer",
+        "confirm": "Confirmer",
+        "loading": "Chargement...",
+        "error": "Erreur",
+        "success": "Succès",
+        "warning": "Avertissement",
+        "info": "Information",
+        "address": "Adresse / Localisation",
+        "travelDetails": "Détails du Voyage",
+        "medical": "Médical",
+        "education": "Éducation",
+        "familyReunion": "Regroupement Familial",
+        "resettlement": "Réinstallation",
+        "other": "Autre"
+    },
+    "navigation": {
+        "home": "Accueil",
+        "services": "Services",
+        "status": "Vérifier le Statut",
+        "admin": "Panneau d'Administration",
+        "help": "Aide",
+        "about": "À Propos",
+        "contact": "Contact",
+        "logout": "Déconnexion",
+        "login": "Connexion"
+    },
+    "services": {
+        "passport": "Demande de Passeport",
+        "visa": "Demande de Visa",
+        "permit": "Demande de Permis",
+        "citizenship": "Demande de Citoyenneté",
+        "laissezPasser": "Laissez-Passer",
+        "foreignerId": "Carte d'Identité d'Étranger",
+        "refugeeTravel": "Document de Voyage pour Réfugiés"
+    },
+    "home": {
+        "hero": {
+            "title": "Système National de Gestion des Frontières et des Passeports",
+            "subtitle": "Services Frontaliers Sécurisés, Efficaces et Accessibles",
+            "description": "Demandez des passeports, des visas, des permis et plus encore avec notre plateforme numérique complète. Profitez d'un traitement rationalisé avec des fonctionnalités de sécurité avancées.",
+            "getStarted": "Commencer",
+            "learnMore": "En Savoir Plus"
+        },
+        "features": {
+            "title": "Nos Services",
+            "subtitle": "Solutions complètes de gestion des frontières et des passeports"
+        },
+        "stats": {
+            "applicationsProcessed": "Demandes Traitées",
+            "averageProcessingTime": "Temps de Traitement Moyen",
+            "customerSatisfaction": "Satisfaction Client",
+            "days": "jours"
+        }
+    },
+    "passport": {
+        "title": "Demande de Passeport",
+        "subtitle": "Demandez un nouveau passeport ou renouvelez votre passeport existant",
+        "type": {
+            "label": "Type de Demande",
+            "new": "Nouveau Passeport",
+            "renewal": "Renouvellement de Passeport",
+            "replacement": "Remplacement pour Perte/Vol"
+        },
+        "personalInfo": {
+            "title": "Informations Personnelles",
+            "firstName": "Prénom",
+            "middleName": "Deuxième Prénom",
+            "lastName": "Nom de Famille",
+            "dateOfBirth": "Date de Naissance",
+            "placeOfBirth": "Lieu de Naissance",
+            "gender": "Genre",
+            "nationality": "Nationalité",
+            "maritalStatus": "État Civil"
+        },
+        "contact": {
+            "title": "Informations de Contact",
+            "email": "Adresse E-mail",
+            "phone": "Numéro de Téléphone",
+            "address": "Adresse Résidentielle",
+            "city": "Ville",
+            "district": "District",
+            "postalCode": "Code Postal"
+        },
+        "documents": {
+            "title": "Documents Requis",
+            "nationalId": "Carte d'Identité Nationale",
+            "birthCertificate": "Certificat de Naissance",
+            "photo": "Photo de Passeport",
+            "proofOfAddress": "Preuve de Domicile"
+        }
+    },
+    "visa": {
+        "title": "Demande de Visa",
+        "subtitle": "Demandez un visa pour visiter ou séjourner",
+        "type": {
+            "label": "Type de Visa",
+            "tourist": "Visa Touristique",
+            "business": "Visa d'Affaires",
+            "transit": "Visa de Transit",
+            "student": "Visa Étudiant",
+            "work": "Visa de Travail",
+            "diplomatic": "Visa Diplomatique"
+        },
+        "duration": {
+            "label": "Durée du Séjour",
+            "shortTerm": "Court terme (jusqu'à 90 jours)",
+            "longTerm": "Long terme (plus de 90 jours)"
+        }
+    },
+    "permit": {
+        "title": "Demande de Permis",
+        "subtitle": "Demandez des permis de travail, de résidence ou d'études",
+        "type": {
+            "label": "Type de Permis",
+            "work": "Permis de Travail",
+            "residence": "Permis de Résidence",
+            "student": "Permis Étudiant",
+            "investment": "Permis d'Investissement"
+        }
+    },
+    "citizenship": {
+        "title": "Demande de Citoyenneté",
+        "subtitle": "Demandez la citoyenneté ou la naturalisation",
+        "type": {
+            "label": "Type de Demande",
+            "naturalization": "Naturalisation",
+            "birthRegistration": "Citoyenneté par Naissance",
+            "dual": "Double Citoyenneté",
+            "certificate": "Certificat de Citoyenneté"
+        }
+    },
+    "laissezPasser": {
+        "title": "Demande de Laissez-Passer",
+        "subtitle": "Demande de document de voyage d'urgence",
+        "type": {
+            "label": "Type de Document",
+            "emergency": "Document de Voyage d'Urgence",
+            "temporary": "Autorisation de Voyage Temporaire",
+            "diplomatic": "Laissez-Passer Diplomatique"
+        }
+    },
+    "refugeeTravel": {
+        "title": "Document de Voyage pour Réfugiés",
+        "subtitle": "Demandez une documentation de voyage pour réfugiés",
+        "asylumNumber": "Numéro d'Enregistrement d'Asile",
+        "refugeeStatus": "Statut de Réfugié",
+        "destination": "Pays de Destination",
+        "purpose": "Objet du Voyage"
+    },
+    "status": {
+        "title": "Vérifier le Statut de la Demande",
+        "subtitle": "Suivez l'avancement de votre demande",
+        "referenceNumber": "Numéro de Référence de la Demande",
+        "checkStatus": "Vérifier le Statut",
+        "statuses": {
+            "submitted": "Soumis",
+            "underReview": "En Cours d'Examen",
+            "approved": "Approuvé",
+            "rejected": "Rejeté",
+            "pendingDocuments": "Documents en Attente",
+            "readyForCollection": "Prêt pour la Collecte"
+        }
+    },
+    "admin": {
+        "title": "Panneau d'Administration",
+        "dashboard": "Tableau de Bord",
+        "applications": "Demandes",
+        "users": "Utilisateurs",
+        "reports": "Rapports",
+        "settings": "Paramètres",
+        "analytics": "Analytiques",
+        "borderRecords": "Registres Frontaliers",
+        "watchlist": "Liste de Surveillance",
+        "biometrics": "Services Biométriques"
+    },
+    "validation": {
+        "required": "Ce champ est obligatoire",
+        "invalidEmail": "Adresse e-mail invalide",
+        "invalidPhone": "Numéro de téléphone invalide",
+        "invalidDate": "Date invalide",
+        "minLength": "La longueur minimale est de {{min}} caractères",
+        "maxLength": "La longueur maximale est de {{max}} caractères",
+        "uploadFailed": "Échec du téléchargement du fichier",
+        "invalidFileType": "Type de fichier invalide"
+    },
+    "footer": {
+        "tagline": "Frontières sécurisées, voyage sans tracas. La plateforme officielle des services d'immigration nationaux.",
+        "servicesTitle": "Services",
+        "applyPassport": "Demander un Passeport",
+        "visaApplication": "Demande de Visa",
+        "workPermits": "Permis de Travail",
+        "checkStatus": "Vérifier le Statut",
+        "supportTitle": "Support",
+        "helpCenter": "Centre d'Aide",
+        "contactUs": "Contactez-Nous",
+        "faqs": "FAQs",
+        "legalTitle": "Légal",
+        "privacy": "Politique de Confidentialité",
+        "terms": "Conditions d'Utilisation",
+        "accessibility": "Accessibilité",
+        "copyright": "© 2025 Services Nationaux des Frontières et de l'Immigration. Tous droits réservés."
+    },
+    "messages": {
+        "applicationSubmitted": "Votre demande a été soumise avec succès",
+        "applicationUpdated": "Demande mise à jour avec succès",
+        "documentUploaded": "Document téléchargé avec succès",
+        "errorOccurred": "Une erreur s'est produite. Veuillez réessayer",
+        "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet élément?",
+        "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter"
+    }
+}

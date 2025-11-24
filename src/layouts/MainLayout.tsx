@@ -1,11 +1,14 @@
 import { Link, Outlet } from 'react-router-dom';
-import { Shield, Globe, Menu, X, User } from 'lucide-react';
+import { Shield, Menu, X, User } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { ModeToggle } from '@/components/mode-toggle';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function MainLayout() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const { t } = useTranslation();
 
     return (
         <div className="min-h-screen bg-background font-sans text-foreground">
@@ -24,22 +27,19 @@ export default function MainLayout() {
 
                     {/* Desktop Nav */}
                     <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-                        <Link to="/passport" className="hover:text-foreground transition-colors">Passports</Link>
-                        <Link to="/visa" className="hover:text-foreground transition-colors">Visas</Link>
-                        <Link to="/permits" className="hover:text-foreground transition-colors">Permits</Link>
-                        <Link to="/citizenship" className="hover:text-foreground transition-colors">Citizenship</Link>
-                        <Link to="/status" className="hover:text-foreground transition-colors">Status</Link>
+                        <Link to="/passport" className="hover:text-foreground transition-colors">{t('services.passport')}</Link>
+                        <Link to="/visa" className="hover:text-foreground transition-colors">{t('services.visa')}</Link>
+                        <Link to="/permits" className="hover:text-foreground transition-colors">{t('services.permit')}</Link>
+                        <Link to="/citizenship" className="hover:text-foreground transition-colors">{t('services.citizenship')}</Link>
+                        <Link to="/status" className="hover:text-foreground transition-colors">{t('navigation.status')}</Link>
                     </nav>
 
                     <div className="hidden md:flex items-center gap-4">
                         <ModeToggle />
-                        <div className="flex items-center gap-2 text-sm text-muted-foreground bg-muted px-3 py-1.5 rounded-full border border-border">
-                            <Globe className="w-4 h-4" />
-                            <span>EN</span>
-                        </div>
+                        <LanguageSwitcher />
                         <Link to="/login">
                             <Button variant="ghost" className="hover:bg-muted hover:text-foreground">
-                                <User className="w-4 h-4 mr-2" /> Sign In
+                                <User className="w-4 h-4 mr-2" /> {t('navigation.login')}
                             </Button>
                         </Link>
                     </div>
@@ -53,13 +53,16 @@ export default function MainLayout() {
                 {/* Mobile Nav */}
                 {isMenuOpen && (
                     <div className="md:hidden bg-background border-t border-border p-4 space-y-4">
-                        <Link to="/passport" className="block text-muted-foreground hover:text-foreground">Passports</Link>
-                        <Link to="/visa" className="block text-muted-foreground hover:text-foreground">Visas</Link>
-                        <Link to="/permits" className="block text-muted-foreground hover:text-foreground">Permits</Link>
-                        <Link to="/citizenship" className="block text-muted-foreground hover:text-foreground">Citizenship</Link>
-                        <Link to="/status" className="block text-muted-foreground hover:text-foreground">Status</Link>
+                        <Link to="/passport" className="block text-muted-foreground hover:text-foreground">{t('services.passport')}</Link>
+                        <Link to="/visa" className="block text-muted-foreground hover:text-foreground">{t('services.visa')}</Link>
+                        <Link to="/permits" className="block text-muted-foreground hover:text-foreground">{t('services.permit')}</Link>
+                        <Link to="/citizenship" className="block text-muted-foreground hover:text-foreground">{t('services.citizenship')}</Link>
+                        <Link to="/status" className="block text-muted-foreground hover:text-foreground">{t('navigation.status')}</Link>
                         <div className="pt-4 border-t border-border">
-                            <Link to="/login" className="block text-muted-foreground hover:text-foreground">Sign In</Link>
+                            <LanguageSwitcher />
+                        </div>
+                        <div className="pt-4 border-t border-border">
+                            <Link to="/login" className="block text-muted-foreground hover:text-foreground">{t('navigation.login')}</Link>
                         </div>
                     </div>
                 )}
@@ -79,37 +82,37 @@ export default function MainLayout() {
                             <span className="font-bold">BorderPass</span>
                         </div>
                         <p className="text-sm leading-relaxed">
-                            Secure borders, seamless travel. The official platform for national immigration services.
+                            {t('footer.tagline')}
                         </p>
                     </div>
                     <div>
-                        <h3 className="text-foreground font-semibold mb-4">Services</h3>
+                        <h3 className="text-foreground font-semibold mb-4">{t('footer.servicesTitle')}</h3>
                         <ul className="space-y-2 text-sm">
-                            <li><Link to="/passport" className="hover:text-primary">Apply for Passport</Link></li>
-                            <li><Link to="/visa" className="hover:text-primary">Visa Application</Link></li>
-                            <li><Link to="/permits" className="hover:text-primary">Work Permits</Link></li>
-                            <li><Link to="/status" className="hover:text-primary">Check Status</Link></li>
+                            <li><Link to="/passport" className="hover:text-primary">{t('footer.applyPassport')}</Link></li>
+                            <li><Link to="/visa" className="hover:text-primary">{t('footer.visaApplication')}</Link></li>
+                            <li><Link to="/permits" className="hover:text-primary">{t('footer.workPermits')}</Link></li>
+                            <li><Link to="/status" className="hover:text-primary">{t('footer.checkStatus')}</Link></li>
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-foreground font-semibold mb-4">Support</h3>
+                        <h3 className="text-foreground font-semibold mb-4">{t('footer.supportTitle')}</h3>
                         <ul className="space-y-2 text-sm">
-                            <li><Link to="/help" className="hover:text-primary">Help Center</Link></li>
-                            <li><Link to="/contact" className="hover:text-primary">Contact Us</Link></li>
-                            <li><Link to="/faq" className="hover:text-primary">FAQs</Link></li>
+                            <li><Link to="/help" className="hover:text-primary">{t('footer.helpCenter')}</Link></li>
+                            <li><Link to="/contact" className="hover:text-primary">{t('footer.contactUs')}</Link></li>
+                            <li><Link to="/faq" className="hover:text-primary">{t('footer.faqs')}</Link></li>
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-foreground font-semibold mb-4">Legal</h3>
+                        <h3 className="text-foreground font-semibold mb-4">{t('footer.legalTitle')}</h3>
                         <ul className="space-y-2 text-sm">
-                            <li><Link to="/privacy" className="hover:text-primary">Privacy Policy</Link></li>
-                            <li><Link to="/terms" className="hover:text-primary">Terms of Service</Link></li>
-                            <li><Link to="/accessibility" className="hover:text-primary">Accessibility</Link></li>
+                            <li><Link to="/privacy" className="hover:text-primary">{t('footer.privacy')}</Link></li>
+                            <li><Link to="/terms" className="hover:text-primary">{t('footer.terms')}</Link></li>
+                            <li><Link to="/accessibility" className="hover:text-primary">{t('footer.accessibility')}</Link></li>
                         </ul>
                     </div>
                 </div>
                 <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-border text-center text-xs">
-                    <p>&copy; 2025 National Border & Immigration Services. All rights reserved.</p>
+                    <p>{t('footer.copyright')}</p>
                 </div>
             </footer>
         </div>

@@ -1,0 +1,226 @@
+{
+    "common": {
+        "appName": "Mfumo wa Taifa wa Usimamizi wa Mipaka na Pasipoti",
+        "welcome": "Karibu",
+        "submit": "Wasilisha",
+        "cancel": "Ghairi",
+        "next": "Ifuatayo",
+        "previous": "Iliyotangulia",
+        "save": "Hifadhi",
+        "edit": "Hariri",
+        "delete": "Futa",
+        "search": "Tafuta",
+        "filter": "Chuja",
+        "export": "Hamisha",
+        "print": "Chapisha",
+        "close": "Funga",
+        "confirm": "Thibitisha",
+        "loading": "Inapakia...",
+        "error": "Hitilafu",
+        "success": "Mafanikio",
+        "warning": "Onyo",
+        "info": "Taarifa",
+        "address": "Anwani / Mahali",
+        "travelDetails": "Maelezo ya Usafiri",
+        "medical": "Matibabu",
+        "education": "Elimu",
+        "familyReunion": "Kuungana na Familia",
+        "resettlement": "Kuhamishwa",
+        "other": "Nyinginezo"
+    },
+    "navigation": {
+        "home": "Nyumbani",
+        "services": "Huduma",
+        "status": "Angalia Hali",
+        "admin": "Paneli ya Msimamizi",
+        "help": "Msaada",
+        "about": "Kuhusu",
+        "contact": "Mawasiliano",
+        "logout": "Ondoka",
+        "login": "Ingia"
+    },
+    "services": {
+        "passport": "Maombi ya Pasipoti",
+        "visa": "Maombi ya Visa",
+        "permit": "Maombi ya Kibali",
+        "citizenship": "Maombi ya Uraia",
+        "laissezPasser": "Laissez-Passer",
+        "foreignerId": "Kitambulisho cha Mgeni",
+        "refugeeTravel": "Hati ya Usafiri ya Mkimbizi"
+    },
+    "home": {
+        "hero": {
+            "title": "Mfumo wa Taifa wa Usimamizi wa Mipaka na Pasipoti",
+            "subtitle": "Huduma za Mipaka Salama, Zenye Ufanisi na Zinazofikiwa",
+            "description": "Omba pasipoti, visa, vibali na zaidi kupitia jukwaa letu kamili la kidijitali. Furahia usindikaji ulioboreshwa ukiwa na vipengele vya usalama wa hali ya juu.",
+            "getStarted": "Anza",
+            "learnMore": "Jifunze Zaidi"
+        },
+        "features": {
+            "title": "Huduma Zetu",
+            "subtitle": "Suluhisho kamili za usimamizi wa mipaka na pasipoti"
+        },
+        "stats": {
+            "applicationsProcessed": "Maombi Yaliyochakatwa",
+            "averageProcessingTime": "Wastani wa Muda wa Usindikaji",
+            "customerSatisfaction": "Kuridhika kwa Wateja",
+            "days": "siku"
+        }
+    },
+    "passport": {
+        "title": "Maombi ya Pasipoti",
+        "subtitle": "Omba pasipoti mpya au fanya upya pasipoti yako iliyopo",
+        "type": {
+            "label": "Aina ya Maombi",
+            "new": "Pasipoti Mpya",
+            "renewal": "Kufanya Upya Pasipoti",
+            "replacement": "Kubadilisha Iliyopotea/Iliiyoibiwa"
+        },
+        "personalInfo": {
+            "title": "Taarifa Binafsi",
+            "firstName": "Jina la Kwanza",
+            "middleName": "Jina la Kati",
+            "lastName": "Jina la Ukoo",
+            "dateOfBirth": "Tarehe ya Kuzaliwa",
+            "placeOfBirth": "Mahali pa Kuzaliwa",
+            "gender": "Jinsia",
+            "nationality": "Uraia",
+            "maritalStatus": "Hali ya Ndoa"
+        },
+        "contact": {
+            "title": "Taarifa za Mawasiliano",
+            "email": "Anwani ya Barua Pepe",
+            "phone": "Nambari ya Simu",
+            "address": "Anwani ya Makazi",
+            "city": "Mji",
+            "district": "Wilaya",
+            "postalCode": "Msimbo wa Posta"
+        },
+        "documents": {
+            "title": "Nyaraka Zinazohitajika",
+            "nationalId": "Kitambulisho cha Taifa",
+            "birthCertificate": "Hati ya Kuzaliwa",
+            "photo": "Picha ya Pasipoti",
+            "proofOfAddress": "Uthibitisho wa Anwani"
+        }
+    },
+    "visa": {
+        "title": "Maombi ya Visa",
+        "subtitle": "Omba visa ya kutembelea au kukaa",
+        "type": {
+            "label": "Aina ya Visa",
+            "tourist": "Visa ya Utalii",
+            "business": "Visa ya Biashara",
+            "transit": "Visa ya Kupitia",
+            "student": "Visa ya Mwanafunzi",
+            "work": "Visa ya Kazi",
+            "diplomatic": "Visa ya Kidiplomasia"
+        },
+        "duration": {
+            "label": "Muda wa Kukaa",
+            "shortTerm": "Muda mfupi (hadi siku 90)",
+            "longTerm": "Muda mrefu (zaidi ya siku 90)"
+        }
+    },
+    "permit": {
+        "title": "Maombi ya Kibali",
+        "subtitle": "Omba vibali vya kazi, makazi, au masomo",
+        "type": {
+            "label": "Aina ya Kibali",
+            "work": "Kibali cha Kazi",
+            "residence": "Kibali cha Makazi",
+            "student": "Kibali cha Mwanafunzi",
+            "investment": "Kibali cha Uwekezaji"
+        }
+    },
+    "citizenship": {
+        "title": "Maombi ya Uraia",
+        "subtitle": "Omba uraia au utaifa",
+        "type": {
+            "label": "Aina ya Maombi",
+            "naturalization": "Utaifa",
+            "birthRegistration": "Uraia kwa Kuzaliwa",
+            "dual": "Uraia wa Nchi Mbili",
+            "certificate": "Hati ya Uraia"
+        }
+    },
+    "laissezPasser": {
+        "title": "Maombi ya Laissez-Passer",
+        "subtitle": "Maombi ya hati ya usafiri wa dharura",
+        "type": {
+            "label": "Aina ya Hati",
+            "emergency": "Hati ya Usafiri wa Dharura",
+            "temporary": "Idhini ya Usafiri wa Muda",
+            "diplomatic": "Laissez-Passer ya Kidiplomasia"
+        }
+    },
+    "refugeeTravel": {
+        "title": "Hati ya Usafiri ya Mkimbizi",
+        "subtitle": "Omba nyaraka za usafiri wa mkimbizi",
+        "asylumNumber": "Nambari ya Usajili wa Hifadhi",
+        "refugeeStatus": "Hali ya Mkimbizi",
+        "destination": "Nchi ya Kusudio",
+        "purpose": "Madhumuni ya Usafiri"
+    },
+    "status": {
+        "title": "Angalia Hali ya Maombi",
+        "subtitle": "Fuatilia maendeleo ya maombi yako",
+        "referenceNumber": "Nambari ya Kumbukumbu ya Maombi",
+        "checkStatus": "Angalia Hali",
+        "statuses": {
+            "submitted": "Yamewasilishwa",
+            "underReview": "Yanakaguliwa",
+            "approved": "Yameidhinishwa",
+            "rejected": "Yamekataliwa",
+            "pendingDocuments": "Nyaraka Zinasubiri",
+            "readyForCollection": "Tayari kwa Ukusanyaji"
+        }
+    },
+    "admin": {
+        "title": "Paneli ya Msimamizi",
+        "dashboard": "Dashibodi",
+        "applications": "Maombi",
+        "users": "Watumiaji",
+        "reports": "Ripoti",
+        "settings": "Mipangilio",
+        "analytics": "Uchanganuzi",
+        "borderRecords": "Kumbukumbu za Mipaka",
+        "watchlist": "Orodha ya Ufuatiliaji",
+        "biometrics": "Huduma za Bayometriki"
+    },
+    "validation": {
+        "required": "Sehemu hii inahitajika",
+        "invalidEmail": "Anwani ya barua pepe si sahihi",
+        "invalidPhone": "Nambari ya simu si sahihi",
+        "invalidDate": "Tarehe si sahihi",
+        "minLength": "Urefu wa chini ni herufi {{min}}",
+        "maxLength": "Urefu wa juu ni herufi {{max}}",
+        "uploadFailed": "Kupakia faili kumeshindwa",
+        "invalidFileType": "Aina ya faili si sahihi"
+    },
+    "footer": {
+        "tagline": "Mipaka salama, usafiri usio na kikwazo. Jukwaa rasmi la huduma za uhamiaji wa taifa.",
+        "servicesTitle": "Huduma",
+        "applyPassport": "Omba Pasipoti",
+        "visaApplication": "Maombi ya Visa",
+        "workPermits": "Vibali vya Kazi",
+        "checkStatus": "Angalia Hali",
+        "supportTitle": "Msaada",
+        "helpCenter": "Kituo cha Msaada",
+        "contactUs": "Wasiliana Nasi",
+        "faqs": "Maswali Yanayoulizwa Mara kwa Mara",
+        "legalTitle": "Kisheria",
+        "privacy": "Sera ya Faragha",
+        "terms": "Masharti ya Huduma",
+        "accessibility": "Ufikiaji",
+        "copyright": "© 2025 Huduma za Mipaka na Uhamiaji wa Taifa. Haki zote zimehifadhiwa."
+    },
+    "messages": {
+        "applicationSubmitted": "Maombi yako yamewasilishwa kwa mafanikio",
+        "applicationUpdated": "Maombi yameboreshwa kwa mafanikio",
+        "documentUploaded": "Hati imepakiwa kwa mafanikio",
+        "errorOccurred": "Hitilafu imetokea. Tafadhali jaribu tena",
+        "confirmDelete": "Je, una uhakika unataka kufuta kipengee hiki?",
+        "sessionExpired": "Kipindi chako kimeisha. Tafadhali ingia tena"
+    }
+}

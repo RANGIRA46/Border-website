@@ -1,0 +1,226 @@
+{
+    "common": {
+        "appName": "Sisitemu y'Igihugu yo Gucunga Imipaka n'Inzira mpuzamahanga",
+        "welcome": "Murakaza neza",
+        "submit": "Ohereza",
+        "cancel": "Kureka",
+        "next": "Ibikurikira",
+        "previous": "Ibiri imbere",
+        "save": "Bika",
+        "edit": "Hindura",
+        "delete": "Siba",
+        "search": "Shakisha",
+        "filter": "Shungura",
+        "export": "Kohereza hanze",
+        "print": "Kucapa",
+        "close": "Funga",
+        "confirm": "Emeza",
+        "loading": "Iratangura...",
+        "error": "Ikosa",
+        "success": "Byagenze neza",
+        "warning": "Iburira",
+        "info": "Amakuru",
+        "address": "Aderesi / Ahantu",
+        "travelDetails": "Ibisobanuro by'Urugendo",
+        "medical": "Ubuvuzi",
+        "education": "Uburezi",
+        "familyReunion": "Kwihurirana n'Umuryango",
+        "resettlement": "Gutura ahandi",
+        "other": "Ibindi"
+    },
+    "navigation": {
+        "home": "Ahabanza",
+        "services": "Serivisi",
+        "status": "Reba Uko Bihagariye",
+        "admin": "Ikigega cy'Ubuyobozi",
+        "help": "Ubufasha",
+        "about": "Ibyerekeye",
+        "contact": "Twandikire",
+        "logout": "Sohoka",
+        "login": "Injira"
+    },
+    "services": {
+        "passport": "Gusaba Inzira mpuzamahanga",
+        "visa": "Gusaba Viza",
+        "permit": "Gusaba Uruhushya",
+        "citizenship": "Gusaba Ubwenegihugu",
+        "laissezPasser": "Laissez-Passer",
+        "foreignerId": "Irangamuntu ry'Umunyamahanga",
+        "refugeeTravel": "Icyangombwa cy'Urugendo cya Mpunzi"
+    },
+    "home": {
+        "hero": {
+            "title": "Sisitemu y'Igihugu yo Gucunga Imipaka n'Inzira mpuzamahanga",
+            "subtitle": "Serivisi z'Imipaka Zizewe, Zinoze kandi Zigerwaho",
+            "description": "Saba inzira mpuzamahanga, viza, uruhushya n'ibindi birenzeho ukoresheje urubuga rwacu rw'ikoranabuhanga rugororotse. Menya uburyo bworoshye bwo gutunganya hamwe n'umutekano ukomeye.",
+            "getStarted": "Tangira",
+            "learnMore": "Wige Byinshi"
+        },
+        "features": {
+            "title": "Serivisi Zacu",
+            "subtitle": "Ibisubizo byuzuye byo gucunga imipaka n'inzira mpuzamahanga"
+        },
+        "stats": {
+            "applicationsProcessed": "Amasomo Yakozwe",
+            "averageProcessingTime": "Igihe cy'Ikigereranyo cyo Gutunganya",
+            "customerSatisfaction": "Kwishimira kw'Abakiriya",
+            "days": "iminsi"
+        }
+    },
+    "passport": {
+        "title": "Gusaba Inzira mpuzamahanga",
+        "subtitle": "Saba inzira mpuzamahanga nshya cyangwa uvugurure iya kera",
+        "type": {
+            "label": "Ubwoko bw'Icyifuzo",
+            "new": "Inzira mpuzamahanga Nshya",
+            "renewal": "Gusana Inzira mpuzamahanga",
+            "replacement": "Gusimbuza Yatakaye/Yibwe"
+        },
+        "personalInfo": {
+            "title": "Amakuru Bwite",
+            "firstName": "Izina Ryambere",
+            "middleName": "Izina ryo Hagati",
+            "lastName": "Izina ry'Umuryango",
+            "dateOfBirth": "Itariki y'Amavuko",
+            "placeOfBirth": "Aho Wavukiye",
+            "gender": "Igitsina",
+            "nationality": "Ubwenegihugu",
+            "maritalStatus": "Irangamimerere"
+        },
+        "contact": {
+            "title": "Amakuru y'Itumanaho",
+            "email": "Aderesi ya Imeli",
+            "phone": "Nomero ya Telefoni",
+            "address": "Aderesi y'Aho Utuye",
+            "city": "Umujyi",
+            "district": "Akarere",
+            "postalCode": "Nimero ya Posita"
+        },
+        "documents": {
+            "title": "Inyandiko Zikenewe",
+            "nationalId": "Irangamuntu ry'Igihugu",
+            "birthCertificate": "Icyemezo cy'Amavuko",
+            "photo": "Ifoto y'Inzira mpuzamahanga",
+            "proofOfAddress": "Icyemezo cy'Aderesi"
+        }
+    },
+    "visa": {
+        "title": "Gusaba Viza",
+        "subtitle": "Saba viza yo gusura cyangwa kuguma",
+        "type": {
+            "label": "Ubwoko bwa Viza",
+            "tourist": "Viza y'Ubukerarugendo",
+            "business": "Viza y'Ubucuruzi",
+            "transit": "Viza yo Kunyura",
+            "student": "Viza y'Umunyeshuri",
+            "work": "Viza y'Akazi",
+            "diplomatic": "Viza ya Diplomasi"
+        },
+        "duration": {
+            "label": "Igihe cyo Kuguma",
+            "shortTerm": "Igihe gito (kugeza iminsi 90)",
+            "longTerm": "Igihe kirekire (kuruta iminsi 90)"
+        }
+    },
+    "permit": {
+        "title": "Gusaba Uruhushya",
+        "subtitle": "Saba uruhushya rw'akazi, gutura, cyangwa kwiga",
+        "type": {
+            "label": "Ubwoko bw'Uruhushya",
+            "work": "Uruhushya rw'Akazi",
+            "residence": "Uruhushya rwo Gutura",
+            "student": "Uruhushya rw'Umunyeshuri",
+            "investment": "Uruhushya rw'Ishoramari"
+        }
+    },
+    "citizenship": {
+        "title": "Gusaba Ubwenegihugu",
+        "subtitle": "Saba ubwenegihugu cyangwa kuba umunyagihugu",
+        "type": {
+            "label": "Ubwoko bw'Icyifuzo",
+            "naturalization": "Kuba Umunyagihugu",
+            "birthRegistration": "Ubwenegihugu ku Mavuko",
+            "dual": "Ubwenegihugu bw'Ibihugu bibiri",
+            "certificate": "Icyemezo cy'Ubwenegihugu"
+        }
+    },
+    "laissezPasser": {
+        "title": "Gusaba Laissez-Passer",
+        "subtitle": "Gusaba icyangombwa cy'urugendo cyo mu byihutirwa",
+        "type": {
+            "label": "Ubwoko bw'Icyangombwa",
+            "emergency": "Icyangombwa cy'Urugendo cyo mu Byihutirwa",
+            "temporary": "Uruhushya rw'Urugendo rw'Agateganyo",
+            "diplomatic": "Laissez-Passer ya Diplomasi"
+        }
+    },
+    "refugeeTravel": {
+        "title": "Icyangombwa cy'Urugendo cya Mpunzi",
+        "subtitle": "Saba inyandiko z'urugendo za mpunzi",
+        "asylumNumber": "Nomero y'Iyandikisha ryo Kwakira",
+        "refugeeStatus": "Imiterere ya Mpunzi",
+        "destination": "Igihugu Ujya",
+        "purpose": "Impamvu y'Urugendo"
+    },
+    "status": {
+        "title": "Reba Uko Icyifuzo Kihagariye",
+        "subtitle": "Koresha inzira y'icyifuzo cyawe",
+        "referenceNumber": "Nomero y'Icyifuzo",
+        "checkStatus": "Reba Uko Bihagariye",
+        "statuses": {
+            "submitted": "Byoherejwe",
+            "underReview": "Birasuzumwa",
+            "approved": "Byemejwe",
+            "rejected": "Byanzwe",
+            "pendingDocuments": "Inyandiko Zitegereje",
+            "readyForCollection": "Biteguye Gufatwa"
+        }
+    },
+    "admin": {
+        "title": "Ikigega cy'Ubuyobozi",
+        "dashboard": "Ikigega cy'Imicungire",
+        "applications": "Amasomo",
+        "users": "Abakoresha",
+        "reports": "Raporo",
+        "settings": "Igenamiterere",
+        "analytics": "Isesengura",
+        "borderRecords": "Inyandiko z'Imipaka",
+        "watchlist": "Urutonde rw'Igenzura",
+        "biometrics": "Serivisi za Bayometriki"
+    },
+    "validation": {
+        "required": "Iyi nkuta irakenewe",
+        "invalidEmail": "Aderesi ya imeli ntabwo ari yo",
+        "invalidPhone": "Nomero ya telefoni ntabwo ari yo",
+        "invalidDate": "Itariki ntabwo ari yo",
+        "minLength": "Uburebure buto ni inyuguti {{min}}",
+        "maxLength": "Uburebure bukomeye ni inyuguti {{max}}",
+        "uploadFailed": "Kohereza dosiye byanze",
+        "invalidFileType": "Ubwoko bw'idosiye ntabwo ari bwo"
+    },
+    "footer": {
+        "tagline": "Imipaka itewe umutekano, urugendo rworoshye. Urubuga rw'ibanze rw'iserivisi z'igihugu z'abinjira n'abasohoka.",
+        "servicesTitle": "Serivisi",
+        "applyPassport": "Saba Inzira mpuzamahanga",
+        "visaApplication": "Gusaba Viza",
+        "workPermits": "Uruhushya rw'Akazi",
+        "checkStatus": "Reba Uko Bihagariye",
+        "supportTitle": "Ubufasha",
+        "helpCenter": "Ikigo cy'Ubufasha",
+        "contactUs": "Twandikire",
+        "faqs": "Ibibazo Bikunze Kubazwa",
+        "legalTitle": "Amategeko",
+        "privacy": "Politiki y'Ibanga",
+        "terms": "Amabwiriza y'Imikoreshereze",
+        "accessibility": "Kuboneka",
+        "copyright": "© 2025 Iserivisi z'Igihugu z'Imipaka n'Abinjira n'abasohoka. Uburenganzira bwose burahagaritswe."
+    },
+    "messages": {
+        "applicationSubmitted": "Icyifuzo cyawe cyoherejwe neza",
+        "applicationUpdated": "Icyifuzo cyavuguruwe neza",
+        "documentUploaded": "Icyangombwa cyoherejwe neza",
+        "errorOccurred": "Habayeho ikosa. Nyamuneka ongera ugerageze",
+        "confirmDelete": "Urifuza rwose gusiba iyi nkuru?",
+        "sessionExpired": "Umwanya wawe warangiye. Nyamuneka ongera winjire"
+    }
+}
